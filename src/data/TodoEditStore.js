@@ -13,7 +13,7 @@ class TodoEditStore extends ReduceStore {
     return '';
   }
 
-  reduce(state, action){
+  reduce(state, action){    
     switch (action.type) {
       case TodoActionTypes.START_EDITING_TODO:
         return action.id;
